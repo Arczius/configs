@@ -15,7 +15,10 @@
   // ╚═╝  ╚═╝ ╚═════╝    ╚═╝    ╚═════╝     ╚═╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚══════╝╚══════╝
   "auto_install_extensions": {
     "snazzy": true,
-    "material-icon-theme": true
+    "material-icon-theme": true,
+    "comment": true,
+    "csv": true,
+    "rainbow-csv": true,
   },
 
   // ████████╗██╗  ██╗███████╗███╗   ███╗██╗███╗   ██╗ ██████╗
@@ -48,14 +51,14 @@
   "diagnostics": {
     "inline": {
       "enabled": true,
-      "max_severity": null
-    }
+      "max_severity": null,
+    },
   },
   "colorize_brackets": true,
   "auto_signature_help": true,
   "relative_line_numbers": "enabled",
   "title_bar": {
-    "show_sign_in": false
+    "show_sign_in": false,
   },
 
   // ██╗      █████╗ ██╗   ██╗ ██████╗ ██╗   ██╗████████╗
@@ -65,10 +68,10 @@
   // ███████╗██║  ██║   ██║   ╚██████╔╝╚██████╔╝   ██║
   // ╚══════╝╚═╝  ╚═╝   ╚═╝    ╚═════╝  ╚═════╝    ╚═╝
   "git_panel": {
-    "dock": "right"
+    "dock": "right",
   },
   "project_panel": {
-    "dock": "right"
+    "dock": "right",
   },
   "bottom_dock_layout": "full",
 
@@ -89,8 +92,8 @@
   // ╚═╝     ╚═╝╚═╝╚══════╝ ╚═════╝
   "autosave": {
     "after_delay": {
-      "milliseconds": 300
-    }
+      "milliseconds": 300,
+    },
   },
   "vertical_scroll_margin": 5,
   "file_scan_exclusions": [
@@ -104,10 +107,10 @@
     "**/.DS_Store",
     "**/Thumbs.db",
     "**/.classpath",
-    "**/.settings"
+    "**/.settings",
   ],
   "search": {
-    "include_ignored": true
+    "include_ignored": true,
   },
 
   //  █████╗     ██╗
@@ -117,7 +120,7 @@
   // ██║  ██║    ██║
   // ╚═╝  ╚═╝    ╚═╝
   "edit_predictions": {
-    "enabled_in_text_threads": false
+    "enabled_in_text_threads": false,
   },
   "show_edit_predictions": false,
   "agent": {
@@ -125,6 +128,6 @@
     "expand_edit_card": false,
     "enable_feedback": false,
     "single_file_review": false,
-    "enabled": false
-  }
+    "enabled": false,
+  },
 }
